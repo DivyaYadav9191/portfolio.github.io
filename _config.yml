@@ -1,0 +1,69 @@
+# Site settings
+title: Frontend Engineer | Competitive Programmer | GATE 2025 Aspirant
+email: divyadav91@gmail.com
+url: https://github.com/DivyaYadav9191
+description: " I am Divya Yadav, a 4th-year Computer Science Engineering student with a passion for frontend development and competitive programming. With a solid foundation in web technologies such as HTML, CSS, JavaScript, and ReactJS, I have built a variety of projects, including StudyNotion, a single-page application aimed at enhancing study experiences. My keen interest in problem-solving drives me to excel in competitive programming, continuously refining my skills in data structures and algorithms.
+
+Currently, I am preparing for GATE 2025, focusing on Computer Science (CS) and Data Analytics (DA), with an aspiration to secure full marks and explore PSU opportunities afterward. Alongside my technical pursuits, I am also exploring the intersection of online and offline retail experiences, with an aim to develop a recommendation system that incorporates dynamic features like a reel section, trending creators, and virtual try-on.
+
+I believe in continuous learning and strive to combine creativity with technology to build efficient and user-friendly solutions."
+keywords: "Frontend Development , ReactJS , Tailwind CSS , JavaScript , Git / GitHub , Competitive Programming , Data Structures and Algorithms (DSA) , Problem Solving"
+skills: "Web Developer - Competitive Programmer - User Experience Designer"
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/DivyaYadav9191
+  - title: leetcode
+    url: https://leetcode.com/u/2100520310034/
+  - title: codeforces
+    url: https://codeforces.com/profile/divya9191
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 53/67, Darbhanga Colony, Prayagraj, 211002
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
